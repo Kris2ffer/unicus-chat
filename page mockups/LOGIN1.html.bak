@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>LOGIN1</title>
+  </head>
+  <body>
+    <p><b>LOGIN</b></p>
+    <p><a href="%3Chead%3E%20">USERNAME </a></p>
+    <p><a href="%3Chead%3E%20">PASSWORD</a></p>
+    <p><a href="%3Chead%3E%20">Forgotten password</a></p>
+    <p><br>
+    </p>
+    <p>REGISTER&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; SUBMIT</p>
+  </body>
+</html>

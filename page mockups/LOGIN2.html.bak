@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Logon</title>
+  </head>
+  <body>
+    <p>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; <b>LOGIN</b></p>
+    <p><b><br>
+      </b></p>
+    <p>USERNAME <input name="username" size="20" type="text"></p>
+    <p>PASSWORD <input name="password" size="20" type="password"></p>
+    <p><a href="Forgotten Password.html">Forgotten password</a></p>
+    <p><br>
+    </p>
+    <p><a href="submit logon chat.html">SUBMIT</a>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="REGISTER.html">
+        REGISTER</a><br>
+    </p>
+  </body>
+</html>
