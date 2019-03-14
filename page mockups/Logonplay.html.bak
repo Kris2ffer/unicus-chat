@@ -8,7 +8,8 @@
       text-align: center;
      }
       .loginbilde {
-        padding:4px;
+        margin: auto;
+        padding:1.5px;
         display: block;
         height: 100px;
         left: auto;
@@ -19,13 +20,15 @@
         border-bottom:6px solid #7FFF00;
         width: 85%;
         opacity: 0.99;
+        border-style: double;
        
       } 
   </style>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Logon</title>
   </head>
-  <body> <img class="loginbilde" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress"
+  <body> <img class="loginbilde" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress"
+
       style="width: 300px; height: 150px;">
     <h1 class="style1">LOGIN</h1>
     <p style="color:Lime;">USERNAME<input name="username" maxlength="20" type="email">
