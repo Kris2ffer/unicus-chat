@@ -2,21 +2,31 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style>
+    .style1 {
+      color: orange;
+      background: blue;
+      text-align: center;
+     }
+    </style>
     <title>REGISTER</title>
   </head>
   <body>
     <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <b>&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; REGISTER</b></p>
-    <p><b><br>
+        &nbsp;&nbsp; <br>
       </b></p>
-    <p>E-MAIL <input name="E-MAIL" size="20" type="email"></p>
-    <p>FULL NAME<input name="full name" size="30" type="text"></p>
-    <p>NICKNAME/USERNAME<input name="nickname/username" size="30" type="text"></p>
-    <p>PASSWORD<input name="password" size="20" type="password"></p>
-    <p>CONFIRM PASSWORD<input name="confirm password" size="20" type="password"></p>
-    <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <a href="%20">SUBMIT</a></p>
+    <h1 class="style1">REGISTER</h1>
+    <form name="REGISTER" action="" method="POST">
+      <p style="color:RED;Background:PINK; Opacity:0.7;">E-MAIL <input name="E-MAIL"
+          size="20" type="email"></p>
+      <p style="color:DODGERBLUE;Background:AQUA; Opacity:0.7;">FULL NAME<input
+          name="full name" size="30" type="text"></p>
+      <p>NICKNAME/USERNAME<input name="nickname/username" size="30" type="text"></p>
+      <p>PASSWORD<input name="password" size="20" type="password"></p>
+      <p>CONFIRM PASSWORD<input name="confirm password" size="20" type="password"></p>
+      <p>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp; <input name="SUBMIT" formmethod="post" type="submit"></p>
+    </form>
   </body>
 </html>
